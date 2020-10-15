@@ -61,6 +61,7 @@ padding-top: 25px;
 #nav-list a {
   color: #951C49;
   text-align: center;
+  font-size: 1.2em;
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -272,6 +273,9 @@ h3.menu-item-title {
 		box-shadow: 0 0 50px #3f0c1f;
 		border: 2px solid #3f0c1f;
 	}
+	#logo-img{
+		margin: 0;
+	}
 
 }
 
@@ -295,6 +299,7 @@ h3.menu-item-title {
 
   #nav-list a {
   float: right;
+
 }
 
 
@@ -320,7 +325,13 @@ h3.menu-item-title {
 
 /********** Extra small devices only **********/
 @media only screen and (max-width: 575px){
+.jumbotron{
+		background: url("../image/jumbotron500.jpg");
+		height: 324px;
+		box-shadow: 0 0 50px #3f0c1f;
+  	    border: 2px solid  #3f0c1f;
 
+	}
 	/* this one not work */
 	.menu-item-photo{
  
